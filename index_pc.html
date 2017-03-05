@@ -1,0 +1,76 @@
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="viewport" content="width=640,width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>智者,大成</title>
+<meta name="keywords" content="梅赛德斯-奔驰，奔驰，奔驰汽车 ">
+<meta name="description" content="欢迎浏览梅赛德斯-奔驰中国网站。在这里您可以浏览有关奔驰乘用车、AMG、商用汽车，梅赛德斯-奔驰的优质服务、最新消息及活动，一级方程式赛车的精彩信息以及职位招聘的相关信息。 ">
+<link href="http://www.mercedes-benz.com.cn/favicon.ico" rel="SHORTCUT ICON" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<style type="text/css">
+body,html{margin: 0;padding: 0;height: 100%;width: 100%;overflow: hidden;}
+#voide_box{height: 100%;width: 100%;background: #000000;}
+#voide{height: 100%;width: 100%;}
+#skip{display: block;position: absolute;right: 30px;bottom: 50px;width: 85px;height:85px;background: url(./img/skip.png) no-repeat;}
+</style>
+<script>
+!(function(a,b,c,d,e,f){var g="",h=a.sessionStorage,i="__admaster_ta_param__",j="tmDataLayer"!==d?"&dl="+d:"";
+if(a[f]={},a[d]=a[d]||[],a[d].push({startTime:+new Date,event:"tm.js"}),h){var k=a.location.search,
+l=new RegExp("[?&]"+i+"=(.*?)(&|#|$)").exec(k)||[];l[1]&&h.setItem(i,l[1]),l=h.getItem(i),
+l&&(g="&p="+l+"&t="+ +new Date)}var m=b.createElement(c),n=b.getElementsByTagName(c)[0];m.src="//tag.cdnmaster.cn/tmjs/tm.js?id="+e+j+g,
+m.async=!0,n.parentNode.insertBefore(m,n)})(window,document,"script","tmDataLayer","TM-769197","admaster_tm");
+</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?94692665f1be701d2fbb8ddfe5436ff2";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script type="text/javascript">
+
+if(!isPC()){
+	window.location.href = '../mobile/index.html'
+}
+function isPC() {
+    var userAgentInfo = navigator.userAgent;
+    var Agents = ["Android", "iPhone",
+                "SymbianOS", "Windows Phone",
+                "iPad", "iPod"];
+    var flag = true;
+    for (var v = 0; v < Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+            flag = false;
+            break;
+        }
+    }
+    return flag;
+}
+</script>
+</head>
+<body>
+	<div id="voide_box">
+		<video src="./mov/vr.mp4" autoplay controls autobuffer id='voide'></video>
+	</div>
+
+	<a href="http://special.mercedes-benz.com.cn/thenewe-classlaunch/pc/index.html" id='skip'></a>
+</body>
+
+
+<script type="text/javascript">
+
+	var voide_obj = document.getElementById("voide");
+	voide_obj.onended = function() {
+	    window.location.href = 'http://special.mercedes-benz.com.cn/thenewe-classlaunch/pc/index.html'
+	};
+
+
+</script>
+
+</html>
